@@ -1,0 +1,25 @@
+body{
+
+display: flex;
+justify-content: center;
+text-align: center; width: 60%; padding-left: 20%;  
+
+}
+
+form{ 
+border: 3px solid #80a93e44;
+width: 600px;
+
+background-color: #5af50c52;
+background-blend-mode: hard-light;
+font-weight: bold;
+font-size: 15pt;
+padding:  2 2 2px;
+
+
+
+
+
+
+}
+

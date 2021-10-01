@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./formulario.css">
+  <title>CALCULO IMC</title>
+</head>
+
+</body>
+<form id="form">
+
+  <h1>CALCULADORA IMC</h1>
+  
+  <div>
+    <label>Sexo</label>
+    <select id="genero" class="form-select">
+                    <option selected>Femenino</option>
+                    <option>Masculino</option>
+                </select>
+      </p>
+  </div>
+
+  <div>
+    <label>Edad</label>
+    <input type="number" id="Edad" placeholder="0">
+  </div><p>
+
+
+  <div>
+    <label>Altura</label>
+    <input type="number" id="Altura" placeholder="0"> Cm
+      </p>
+  </div>
+
+  <div>
+    <label>Peso</label>
+    <input type="number" id="Peso" placeholder="0"> Kg
+      </p>
+  </div>
+
+  <div>
+    <button id="calcular">CALCULAR IMC</button>
+    <br>
+    <br>
+    <button id="borrar">REINICIAR</button>
+  </div>
+
+  <P><span id="IMC"></span></P>
+  <P><span id="resp"></span></P>
+
+</form>
+
+<script src="./script/script.js"></script>
+</body>
+
+</html>
